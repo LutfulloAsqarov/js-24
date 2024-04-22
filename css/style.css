@@ -35,6 +35,10 @@ a {
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 10px gray;
+  transition: 0.4s;
+}
+.users__card:hover {
+  transform: scale(1.03);
 }
 .users__card__img {
   flex-grow: 1;
